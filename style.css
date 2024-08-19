@@ -1,0 +1,102 @@
+/** navbar **/
+
+header {
+    background: url("Zomato.webp");
+    height: 440px;
+    width: 100%;
+    margin: 0;
+}
+
+header .navbar {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+    padding: 17px 0;
+    justify-content: space-between;
+}
+
+header .navbar .head {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0 10px;
+    margin-right: 500px;
+    margin-left: 160px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header .navbar .menu {
+    display: flex;
+}
+
+.navbar .menu li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+    color: #fff;
+}
+
+/** Text after the navbar **/
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.content .logo img {
+    height: 60px;
+    width: 300px;
+}
+
+.content .text {
+    font-size: 36px;
+    margin: 30px 0 0;
+    color: #fff;
+}
+
+/** Search bar **/
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.select-search {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #e53935;
+    border: none;
+}
+
+.select-search i {
+    margin-right: 5px;
+}
+
+.search-icon {
+    margin-left: 10px;
+    color: #666;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
