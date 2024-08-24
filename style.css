@@ -100,3 +100,61 @@ header .navbar .menu {
     outline: none;
     font-size: 14px;
 }
+.options{
+    height: 400px;
+    width: 100%;
+    
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+}
+
+.contain{
+    height: 70%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    background: url("pic1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.box p {
+    margin-top: -20px;
+    margin-left: 5px;
+}
+.box h1 {
+   
+    margin-left: 5px;
+}
+.contain2{
+    height: 70%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    background: url("pic2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.contain3{
+    height: 70%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    background: url("pic3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.box:hover{
+   scale: 1.1;
+}
