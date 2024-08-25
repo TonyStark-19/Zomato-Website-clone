@@ -1,26 +1,33 @@
-/** navbar **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/** background image **/
 
 header {
-    background: url("Zomato.webp");
-    height: 440px;
+    background: url("images/Zomato.webp");
+    height: 435px;
     width: 100%;
     margin: 0;
+    background-size: cover;
 }
+
+/** navbar **/
 
 header .navbar {
     width: 100%;
     display: flex;
-    margin-top: -14px;
-    padding: 17px 0;
+    padding: 19px 0;
     justify-content: space-between;
 }
 
 header .navbar .head {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding: 0 0 10px;
-    margin-right: 500px;
-    margin-left: 160px;
+    margin-right: 510px;
+    margin-left: 190px;
     text-decoration: none;
     color: #fff;
 }
@@ -36,7 +43,8 @@ header .navbar .menu {
 
 .navbar .menu a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 500;
     padding: 8px;
     color: #fff;
 }
@@ -49,6 +57,7 @@ header .navbar .menu {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .content .logo img {
@@ -56,10 +65,11 @@ header .navbar .menu {
     width: 300px;
 }
 
-.content .text {
+.content .text h1 {
     font-size: 36px;
     margin: 30px 0 0;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 /** Search bar **/
@@ -72,25 +82,45 @@ header .navbar .menu {
     padding: 5px 10px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 600px;
+    width: 750px;
     margin: 0 auto;
-    height: 40px;
+    height: 45px;
 }
 
 .select-search {
     display: flex;
     align-items: center;
     margin-right: 10px;
-    color: #e53935;
+    color: #666;
     border: none;
+    padding: 0 10px;
+    font-size: 16px;
 }
 
-.select-search i {
-    margin-right: 5px;
+.select-search #location {
+    color: rgb(255, 126, 139);
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.select-search #down-arrow {
+    color: rgb(79, 79, 79);
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-bottom: 3px;
 }
 
 .search-icon {
     margin-left: 10px;
+    margin-right: 16px;
     color: #666;
 }
 
@@ -98,36 +128,38 @@ header .navbar .menu {
     flex: 1;
     border: none;
     outline: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /** Content after background image **/
 
 .options {
-    margin-top: 40px;
-    height: 300px;
-    width: 100%;
+    margin-top: 30px;
+    min-height: 300px;
+    width: 80%;
     display: flex;
     justify-content: center;
+    margin: 30px auto;
 }
 
 .box {
-    height: 300px;
+    height: 230px;
+    width: 350px;
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
-    border: 2px solid black;
+    border: 0.1px solid grey;
     background-size: cover;
     display: inline-block;
     transition: all 0.3s ease-in-out;
 }
 
 .box:hover {
-    scale: 1.1;
+    scale: 1.05;
 }
 
 .image {
-    height: 200px;
+    height: 160px;
     width: 100%;
     object-fit: cover;
 }
@@ -136,12 +168,50 @@ header .navbar .menu {
     padding: 10px 20px 16px;
 }
 
-.text-in p {
+.text-in .h1 {
     margin: 0;
-    font-size: 20px;
+    font-size: 21px;
+    color: #363636;
 }
 
-.text-in h1 {
+.text-in p {
     margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #4f4f4f;
+}
+
+/** collections **/
+
+.collections {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 73%;
+    margin-top: 30px;
+}
+
+.collections .title h2 {
+    font-size: 36px;
+    color: #1c1c1c;
+}
+
+.collections .sub-title {
+    display: flex;
+    flex-direction: row;
+    margin: 4px 0 0;
+}
+
+.collections .sub-title h6 {
+    font-size: 18px;
+    color: #363636;
+    margin-right: 50px;
+}
+
+.collections .sub-title .link a {
+    text-decoration: none;
+    color : rgb(224, 53, 70);
     font-size: 16px;
+    padding: 3px;
 }
