@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font: 1em sans-serif;
 }
 
 /** background image **/
@@ -23,7 +24,7 @@ header .navbar {
 }
 
 header .navbar .head {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding: 0 0 10px;
     margin-right: 510px;
@@ -43,7 +44,7 @@ header .navbar .menu {
 
 .navbar .menu a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     padding: 8px;
     color: #fff;
@@ -148,7 +149,7 @@ header .navbar .menu {
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
-    border: 0.1px solid grey;
+    border: 0.1px solid #e8e8e8;
     background-size: cover;
     display: inline-block;
     transition: all 0.3s ease-in-out;
@@ -176,7 +177,7 @@ header .navbar .menu {
 
 .text-in p {
     margin: 0;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     color: #4f4f4f;
 }
@@ -211,9 +212,15 @@ header .navbar .menu {
 
 .collections .sub-title .link a {
     text-decoration: none;
-    color : rgb(224, 53, 70);
+    color : #ff7e8b;
     font-size: 16px;
     padding: 3px;
+    margin-left: 40px;
+}
+
+.link i {
+    transform: rotate(-90deg);
+    margin-left: 8px;
 }
 
 .collection-box {
@@ -244,7 +251,7 @@ header .navbar .menu {
     position: absolute;
     bottom: 25px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     padding: 0 16px;
 }
 
@@ -252,7 +259,7 @@ header .navbar .menu {
     position: absolute;
     bottom: 0;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 16px;
     margin: 3px 0 10px;
     letter-spacing: 1px;
