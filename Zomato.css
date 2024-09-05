@@ -253,6 +253,7 @@ header .navbar .menu {
     color: #ffffff;
     font-size: 18px;
     padding: 0 16px;
+    margin-bottom: 8px;
 }
 
 .container-text2 {
@@ -267,4 +268,104 @@ header .navbar .menu {
 
 .container-text2 .h6 {
     margin: 0 7px 0 0;
+}
+
+.container-text2 i {
+    transform: rotate(-90deg);
+    margin-left: 2px;
+}
+
+/** localities section **/
+
+.localities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 73%;
+    margin-bottom: 100px;
+}
+
+.localities .heading {
+    font-size: 36px;
+    color: #363636;
+    margin: 0 0 40px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 360px;
+    width: 73%;
+}
+
+.place {
+    flex: 1;
+    width: 300px;
+    color: #fff;
+    padding: 12px 15px;
+    margin: 0 0 5px;
+    border: 2px solid #e8e8e8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#see-more {
+    height: 45px;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#see-more .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#see-more i {
+    color: #1c1c1c;
+    transform: rotate(90deg);
+    margin-left: 8px;
+}
+
+.place .cover {
+    display: flex;
+    flex-direction: column;
+}
+
+.place h5 {
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0 0 5px;
+}
+
+.place .icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.place .icon i {
+    color: #363636;
+}
+
+.place p {
+    font-size: 16px;
+    color: #363636;
 }
