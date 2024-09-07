@@ -542,11 +542,16 @@ header .navbar .menu {
 
 .explore {
     padding: 50px 0;
-    margin: 0 84.4px;
+    margin: 0 150px;
     display: flex;
     flex-direction: column;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+}
+
+.explore-text {
+    width: 80%;
 }
 
 .explore-text p {
@@ -562,7 +567,7 @@ header .navbar .menu {
     padding: 20px 24px;
     border: 2px solid #e8e8e8;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
 }
 
@@ -574,4 +579,118 @@ header .navbar .menu {
 .option-box i {
     color: #1c1c1c;
     transform: rotate(90deg);
+}
+
+/** footer **/
+
+footer {
+    padding: 48px 0 22px;
+    background: #f8f8f8;
+    margin: 0 150px;
+}
+
+.foot-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px;
+    flex-direction: row;
+}
+
+.logo2 img {
+    height: 28px;
+    width: 132px;
+}
+
+.select select {
+    font-size: 18px;
+    color: #1c1c1c;
+    margin: 0 5px 0 0;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+.foot-section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.column h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 12px;
+    letter-spacing: 1px;
+}
+
+.column p {
+    font-size: 14px;
+    color: #696969;
+    margin: 5px 0;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.column p:hover {
+    color: #1c1c1c;
+    cursor: pointer;
+}
+
+.column-last {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.column-last h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 12px;
+    letter-spacing: 1px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icon-social {
+    background: #000;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-social i {
+    color: #fff;
+    font-size: 14px;
+}
+
+#download {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-bottom p {
+    font-size: 13px;
+    color: #4f4f4f;
+    margin: 23px 0 13px;
+    letter-spacing: 1px;
 }
