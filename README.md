@@ -25,9 +25,3 @@ This project is a clone of the Zomato website built using HTML, CSS, and Font Aw
 3. Collections of top trending places
 4. Popular localities section showcasing popular restaurant areas
 5. Footer with useful links and social media icons
-
-zomato-website-clone/
-├── images/                     # Contains all images used in the project
-├── Zomato.css                  # Contains the main CSS file for styling
-├── index.html                  # Main HTML file (Homepage)
-└── README.md                   # This README file
