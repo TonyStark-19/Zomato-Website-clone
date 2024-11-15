@@ -217,7 +217,7 @@ header .navbar .menu {
 
 .collections .sub-title .link a {
     text-decoration: none;
-    color : #ff7e8b;
+    color: #ff7e8b;
     font-size: 16px;
     padding: 3px;
     margin-left: 40px;
@@ -538,7 +538,8 @@ header .navbar .menu {
     gap: 20px;
 }
 
-.img-wrap1 img, .img-wrap2 img {
+.img-wrap1 img,
+.img-wrap2 img {
     width: 140px;
     height: 40px;
 }

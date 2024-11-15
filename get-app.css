@@ -199,7 +199,8 @@ header {
     gap: 20px;
 }
 
-.img-wrap1 img, .img-wrap2 img {
+.img-wrap1 img,
+.img-wrap2 img {
     width: 140px;
     height: 40px;
 }
