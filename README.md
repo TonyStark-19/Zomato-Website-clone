@@ -2,6 +2,11 @@
 
 This project is a clone of the Zomato website built using HTML, CSS, and Font Awesome icons. The goal is to replicate the homepage design of Zomato and provide functionality such as search, collection display, and restaurant recommendations.
 
+## Screenshots
+
+### Homepage :
+![Homepage Screenshot](images/image.png)
+
 ## Features
 
 - Responsive Navbar with options for logging in, signing up, and adding a restaurant.
@@ -17,11 +22,3 @@ This project is a clone of the Zomato website built using HTML, CSS, and Font Aw
 - **HTML5**: Used for structuring the webpage.
 - **CSS3**: Used for styling and layout, including responsive design.
 - **Font Awesome**: Used for icons in the navbar, search bar, and footer.
-
-## Screenshots
-
-1. Navbar with app download option and menu links
-2. Search bar for restaurant and cuisine lookup
-3. Collections of top trending places
-4. Popular localities section showcasing popular restaurant areas
-5. Footer with useful links and social media icons
