@@ -121,6 +121,7 @@ header {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 8px;
     margin-bottom: 25px;
 }
@@ -129,7 +130,17 @@ header {
     position: relative;
 }
 
-.input-box input {
+.number-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #cfcfcf;
+    width: 292px;
+    border-radius: 5px;
+}
+
+.input-box input,
+.number-box input {
     position: relative;
     height: 48px;
     width: 292px;
@@ -140,6 +151,33 @@ header {
     border-radius: 5px;
     font-size: 14px;
     color: #000;
+}
+
+.number-box input {
+    border: none;
+    border-left: 2px solid #b5b5b5;
+    padding-left: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 5px;
+    outline: none;
+}
+
+.number-box:focus-within {
+    border: 2px solid #119199;
+    outline: none;
+}
+
+.number-box input::placeholder {
+    color: #b5b5b5;
+    font-size: 18px;
+}
+
+.number-box select {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    font-size: 16px;
 }
 
 .input-box label {
@@ -203,6 +241,12 @@ header {
 .img-wrap2 img {
     width: 140px;
     height: 40px;
+}
+
+/* hidden class */
+
+.hidden {
+    display: none;
 }
 
 /** footer **/
