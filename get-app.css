@@ -108,6 +108,7 @@ header {
     accent-color: #ef4f5f;
     height: 17px;
     width: 17px;
+    cursor: pointer;
 }
 
 .wrapper label {
@@ -218,6 +219,7 @@ header {
     background: rgb(239, 79, 95);
     border: none;
     border-radius: 6px;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -241,6 +243,7 @@ header {
 .img-wrap2 img {
     width: 140px;
     height: 40px;
+    cursor: pointer;
 }
 
 /* hidden class */
@@ -276,6 +279,7 @@ footer {
     margin: 0 5px 0 0;
     padding: 3px 7px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .foot-section2 {
@@ -344,6 +348,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .icon-social i {
