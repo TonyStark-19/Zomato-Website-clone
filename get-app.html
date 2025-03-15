@@ -46,22 +46,57 @@
             <div class="checkbox">
 
                 <div class="wrapper">
-                    <input type="radio" id="check1" name="contact" value="email" checked>
+                    <input class="email-check" type="radio" id="check1" name="contact" value="email" checked>
                     <label for="check1">Email</label>
                 </div>
 
                 <div class="wrapper">
-                    <input type="radio" id="check2" name="contact" value="phone">
+                    <input class="phone-check" type="radio" id="check2" name="contact" value="phone">
                     <label for="check2">Phone</label>
                 </div>
 
             </div>
 
-            <div class="input-wrap">
+            <div class="input-wrap" id="email-box">
 
-                <div class="input-box">
+                <div class="input-box email-box">
                     <input type="email" required>
                     <label>Email</label>
+                </div>
+
+                <div class="button"><button>Share App Link</button></div>
+
+            </div>
+
+            <div class="input-wrap hidden" id="num-box">
+
+                <div class="number-box">
+                    <select>
+                        <option value="+91">+91</option>
+                        <option value="+91">+60</option>
+                        <option value="+91">+63</option>
+                        <option value="+91">+94</option>
+                        <option value="+91">+56</option>
+                        <option value="+91">+1</option>
+                        <option value="+91">+64</option>
+                        <option value="+91">+27</option>
+                        <option value="+91">+353</option>
+                        <option value="+91">+44</option>
+                        <option value="+91">+971</option>
+                        <option value="+91">+420</option>
+                        <option value="+91">+65</option>
+                        <option value="+91">+351</option>
+                        <option value="+91">+974</option>
+                        <option value="+91">+61</option>
+                        <option value="+91">+421</option>
+                        <option value="+91">+55</option>
+                        <option value="+91">+48</option>
+                        <option value="+91">+62</option>
+                        <option value="+91">+961</option>
+                        <option value="+91">+39</option>
+                        <option value="+91">+90</option>
+                    </select>
+                    <input type="text" placeholder="type here.." required>
                 </div>
 
                 <div class="button"><button>Share App Link</button></div>
@@ -222,9 +257,8 @@
 
     </footer>
 
-</body>
-
-</html>
+    <!-- custom js link -->
+    <script src="script.js"></script>
 
 </body>
 
