@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     font: 1em sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
 }
 
 /** top **/
@@ -53,7 +59,8 @@ header {
     align-items: center;
     flex-direction: row;
     height: 480px;
-    margin: 100px auto;
+    margin: 100px 0;
+    width: 100%;
 }
 
 /** image **/
@@ -255,9 +262,13 @@ header {
 /** footer **/
 
 footer {
-    padding: 48px 0 22px;
+    padding: 48px 30px 22px;
     background: #f8f8f8;
-    margin: 0 300px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .foot-section {
@@ -285,6 +296,8 @@ footer {
 .foot-section2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
     width: 900px;
 }
@@ -292,6 +305,7 @@ footer {
 .column {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 200px;
     min-width: 200px;
 }
@@ -321,6 +335,7 @@ footer {
 .column-last {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 200px;
     min-width: 200px;
 }
@@ -367,4 +382,418 @@ footer {
     color: #4f4f4f;
     margin: 23px 0 13px;
     letter-spacing: 1px;
+    width: 900px;
+    border-top: 1px solid #4f4f4f;
+    padding-top: 20px;
+}
+
+/* responsiveness */
+
+@media (max-width: 1250px) {
+
+    /* footer */
+
+    footer {
+        margin: 0 50px;
+    }
+
+    .foot-section,
+    .foot-section2 {
+        width: 100%;
+    }
+
+    .foot-section2 {
+        gap: 20px;
+    }
+
+    .column {
+        min-height: 200px;
+        min-width: 170px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    /* app */
+
+    .app {
+        margin: 60px 0;
+    }
+
+    .app-img {
+        max-height: 400px;
+        max-width: 350px;
+    }
+
+    .get-app {
+        width: 400px;
+    }
+
+    .get-app h2 {
+        font-size: 40px;
+    }
+
+    .input-box input,
+    .number-box input {
+        width: 250px;
+    }
+
+    .button button {
+        width: 140px;
+        padding: 0 10px;
+    }
+
+    /* footer */
+
+    .foot-section2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 850px) {
+
+    /* navbar */
+
+    .logo {
+        margin: 0;
+    }
+
+    /* app */
+
+    .app-img {
+        max-height: 350px;
+        max-width: 300px;
+    }
+
+    .input-wrap {
+        margin: 20px 0;
+    }
+
+    .get-app {
+        width: 400px;
+    }
+
+    .get-app h2 {
+        font-size: 36px;
+    }
+
+    .get-app p {
+        line-height: 1.5;
+        margin: 0 0 20px;
+    }
+
+    .input-box input,
+    .number-box input {
+        height: 44px;
+    }
+
+    .button button {
+        width: 120px;
+        height: 40px;
+        padding: 0 5px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    /* app */
+
+    .app {
+        margin: 50px 0;
+    }
+
+    .app-img {
+        max-width: 250px;
+    }
+
+    .get-app {
+        width: 360px;
+    }
+
+    .get-app h2 {
+        font-size: 32px;
+    }
+
+    .get-app p {
+        margin: 0 0 15px;
+    }
+
+    .input-wrap {
+        margin: 15px 0;
+    }
+
+    .input-box input,
+    .number-box input {
+        height: 42px;
+        width: 230px;
+    }
+
+    .button button {
+        width: 110px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .img-wrap1 img,
+    .img-wrap2 img {
+        width: 120px;
+        height: 35px;
+    }
+
+    /* footer */
+
+    footer {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    /* app */
+
+    .app-img {
+        max-width: 200px;
+    }
+
+    .get-app {
+        width: 320px;
+    }
+
+    .get-app h2 {
+        font-size: 28px;
+    }
+
+    .get-app p {
+        font-size: 15px;
+    }
+
+    .input-box input,
+    .number-box input {
+        height: 40px;
+        width: 200px;
+    }
+
+    .button button {
+        width: 100px;
+        height: 36px;
+        font-size: 13px;
+    }
+
+    /* footer */
+
+    .foot-section2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .column {
+        min-height: 180px;
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* navbar */
+
+    .nav {
+        justify-content: space-between;
+        padding: 17px 20px;
+    }
+
+    .ref {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 560px) {
+
+    /* app */
+
+    .app {
+        margin: 30px 0;
+    }
+
+    .app-img {
+        display: none;
+    }
+
+    .get-app {
+        width: 450px;
+    }
+
+    .get-app h2 {
+        font-size: 36px;
+    }
+
+    .get-app p {
+        font-size: 16px;
+        margin: 0 0 25px;
+    }
+
+    .input-wrap {
+        margin: 25px 0;
+    }
+
+    .input-box input,
+    .number-box input {
+        height: 45px;
+        width: 300px;
+    }
+
+    .button button {
+        width: 130px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .img-wrap1 img,
+    .img-wrap2 img {
+        width: 140px;
+        height: 40px;
+    }
+
+    /* footer */
+
+    footer {
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* app */
+
+    .get-app {
+        width: 400px;
+    }
+
+    .get-app h2 {
+        font-size: 32px;
+    }
+
+    .get-app p {
+        font-size: 15px;
+    }
+
+    .input-box input,
+    .number-box input {
+        height: 42px;
+        width: 260px;
+    }
+
+    .button button {
+        width: 120px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .img-wrap1 img,
+    .img-wrap2 img {
+        width: 130px;
+        height: 38px;
+    }
+
+    /* footer */
+
+    .foot-section2 {
+        grid-template-columns: 1fr;
+    }
+
+    .column {
+        min-height: auto;
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    /* app */
+
+    .get-app {
+        width: 380px;
+    }
+
+    .get-app h2 {
+        font-size: 28px;
+    }
+
+    .get-app p {
+        font-size: 15px;
+    }
+
+    .input-box input,
+    .number-box input {
+        height: 40px;
+        width: 220px;
+    }
+
+    .button button {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .img-wrap1 img,
+    .img-wrap2 img {
+        width: 120px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* navbar */
+
+    .logo img {
+        height: 28px;
+        width: 120px;
+    }
+
+    .ref {
+        gap: 10px;
+    }
+
+    .ref a {
+        font-size: 17px;
+        padding: 6px 0;
+    }
+}
+
+@media (max-width: 380px) {
+
+    /* app */
+
+    .get-app {
+        width: 350px;
+    }
+
+    .get-app p {
+        width: 330px;
+    }
+
+    .input-box input,
+    .number-box input {
+        width: 180px;
+    }
+
+    .img-wrap1 img,
+    .img-wrap2 img {
+        height: 36px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    /* app */
+
+    .get-app p {
+        width: 300px;
+    }
+
+    .input-box input,
+    .number-box input {
+        width: 170px;
+    }
 }
