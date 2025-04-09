@@ -10,7 +10,7 @@ html {
     overflow-x: hidden;
 }
 
-/** top **/
+/** navbar **/
 
 header {
     display: flex;
@@ -85,6 +85,8 @@ header {
     flex-direction: column;
 }
 
+/* heading */
+
 .get-app h2 {
     font-size: 44px;
     color: #1c1c1c;
@@ -98,6 +100,8 @@ header {
     letter-spacing: 0.5px;
     line-height: 1.9;
 }
+
+/* checkbox */
 
 .checkbox {
     display: flex;
@@ -125,6 +129,8 @@ header {
     padding: 2px 0 0;
 }
 
+/* input */
+
 .input-wrap {
     margin-top: 20px;
     display: flex;
@@ -143,12 +149,11 @@ header {
     flex-direction: row;
     align-items: center;
     border: 2px solid #cfcfcf;
-    width: 292px;
     border-radius: 5px;
 }
 
 .input-box input,
-.number-box input {
+.number-box {
     position: relative;
     height: 48px;
     width: 292px;
@@ -169,6 +174,7 @@ header {
     border-bottom-left-radius: 0;
     margin-left: 5px;
     outline: none;
+    width: 100%;
 }
 
 .number-box:focus-within {
@@ -217,6 +223,8 @@ header {
     color: #119199;
 }
 
+/* buuton */
+
 .button button {
     height: 48px;
     width: 150px;
@@ -233,6 +241,8 @@ header {
 .button button:hover {
     background: #e03546;
 }
+
+/* download options */
 
 .download p {
     font-size: 14px;
@@ -271,9 +281,12 @@ footer {
     flex-direction: column;
 }
 
+/* foot section 1 */
+
 .foot-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 0 40px;
     flex-direction: row;
     width: 900px;
@@ -293,6 +306,8 @@ footer {
     cursor: pointer;
 }
 
+/* foot section 2 */
+
 .foot-section2 {
     display: flex;
     flex-direction: row;
@@ -302,7 +317,8 @@ footer {
     width: 900px;
 }
 
-.column {
+.column,
+.column-last {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,14 +346,6 @@ footer {
 .column p:hover {
     color: #1c1c1c;
     cursor: pointer;
-}
-
-.column-last {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 200px;
-    min-width: 200px;
 }
 
 .column-last h6 {
@@ -377,6 +385,8 @@ footer {
     gap: 10px;
 }
 
+/* bootom text */
+
 .text-bottom p {
     font-size: 13px;
     color: #4f4f4f;
@@ -392,10 +402,6 @@ footer {
 @media (max-width: 1250px) {
 
     /* footer */
-
-    footer {
-        margin: 0 50px;
-    }
 
     .foot-section,
     .foot-section2 {
@@ -434,7 +440,7 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         width: 250px;
     }
 
@@ -445,9 +451,33 @@ footer {
 
     /* footer */
 
+    .column {
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    /* footer */
+
+    .text-bottom p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    /* footer */
+
     .foot-section2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    .column,
+    .column-last {
+        align-items: normal;
     }
 }
 
@@ -484,8 +514,12 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         height: 44px;
+    }
+
+    .number-box select {
+        margin: 0;
     }
 
     .button button {
@@ -525,9 +559,13 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         height: 42px;
         width: 230px;
+    }
+
+    .number-box input::placeholder {
+        font-size: 16px;
     }
 
     .button button {
@@ -545,7 +583,7 @@ footer {
     /* footer */
 
     footer {
-        margin: 0 30px;
+        padding: 30px 30px 20px;
     }
 }
 
@@ -570,7 +608,7 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         height: 40px;
         width: 200px;
     }
@@ -583,13 +621,30 @@ footer {
 
     /* footer */
 
+    .column {
+        min-height: 180px;
+        min-width: 140px;
+    }
+}
+
+@media (max-width: 620px) {
+
+    /* footer */
+
+    .foot-section {
+        margin-bottom: 30px;
+    }
+
     .foot-section2 {
         grid-template-columns: 1fr 1fr;
     }
 
     .column {
-        min-height: 180px;
-        min-width: 150px;
+        min-height: auto;
+    }
+
+    .text-bottom p {
+        margin-top: 0;
     }
 }
 
@@ -637,9 +692,13 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         height: 45px;
         width: 300px;
+    }
+
+    .number-box input::placeholder {
+        font-size: 18px;
     }
 
     .button button {
@@ -652,12 +711,6 @@ footer {
     .img-wrap2 img {
         width: 140px;
         height: 40px;
-    }
-
-    /* footer */
-
-    footer {
-        margin: 0;
     }
 }
 
@@ -678,9 +731,13 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         height: 42px;
         width: 260px;
+    }
+
+    .number-box input::placeholder {
+        font-size: 16px;
     }
 
     .button button {
@@ -693,17 +750,6 @@ footer {
     .img-wrap2 img {
         width: 130px;
         height: 38px;
-    }
-
-    /* footer */
-
-    .foot-section2 {
-        grid-template-columns: 1fr;
-    }
-
-    .column {
-        min-height: auto;
-        min-width: 150px;
     }
 }
 
@@ -724,7 +770,7 @@ footer {
     }
 
     .input-box input,
-    .number-box input {
+    .number-box {
         height: 40px;
         width: 220px;
     }
@@ -739,6 +785,12 @@ footer {
     .img-wrap2 img {
         width: 120px;
         height: 36px;
+    }
+
+    /* footer */
+
+    .select select {
+        font-size: 16px;
     }
 }
 
@@ -759,6 +811,38 @@ footer {
         font-size: 17px;
         padding: 6px 0;
     }
+
+    /* app */
+
+    .input-wrap {
+        flex-direction: column;
+        align-items: normal;
+        gap: 10px;
+    }
+
+    .input-box input,
+    .number-box {
+        height: 40px;
+        width: 90%;
+    }
+
+    .button button {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    .foot-section {
+        flex-direction: column;
+        align-items: normal;
+        gap: 10px;
+    }
+
+    .foot-section2 {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 380px) {
@@ -773,11 +857,6 @@ footer {
         width: 330px;
     }
 
-    .input-box input,
-    .number-box input {
-        width: 180px;
-    }
-
     .img-wrap1 img,
     .img-wrap2 img {
         height: 36px;
@@ -790,10 +869,5 @@ footer {
 
     .get-app p {
         width: 300px;
-    }
-
-    .input-box input,
-    .number-box input {
-        width: 170px;
     }
 }
