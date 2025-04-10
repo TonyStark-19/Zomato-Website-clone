@@ -47,16 +47,24 @@ document.addEventListener('DOMContentLoaded', function () {
     const menu = document.querySelector('.menu');
     const menuBtn = document.querySelector('.menu-btn');
     const menuBtn2 = document.querySelector('.menu-btn-2');
+    const navbar = document.querySelector('.navbar');
+    const head = document.querySelector('.head');
 
     menuBtn.addEventListener('click', function () {
         menu.classList.toggle('active');
         menuBtn.classList.add('hidden'); // Hide menu button
         menuBtn2.classList.remove('hidden'); // Show close button
+        navbar.classList.toggle("active"); // add background
+        head.classList.toggle("active"); // add black color
+        menuBtn2.classList.toggle("active"); // add black color
     });
 
     menuBtn2.addEventListener('click', function () {
         menu.classList.toggle('active');
         menuBtn2.classList.add('hidden'); // Hide close button
         menuBtn.classList.remove('hidden'); // Show menu button
+        navbar.classList.toggle("active"); // remove background
+        head.classList.toggle("active"); // remove color
+        menuBtn2.classList.toggle("active"); // remove color
     });
 });
