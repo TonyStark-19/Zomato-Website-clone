@@ -2,6 +2,8 @@
 
 This project is a **clone of the Zomato website** built using **HTML, CSS, and JavaScript**, along with **Font Awesome icons**. The goal is to replicate the **homepage design of Zomato** while adding **interactive functionalities** such as search, collection display, and restaurant recommendations.
 
+✅ **Now fully responsive across all screen sizes** — from desktops to tablets and smartphones!
+
 ---
 
 ## 📸 Screenshots
@@ -21,8 +23,10 @@ This project is a **clone of the Zomato website** built using **HTML, CSS, and J
 - 📱 **"Get the Zomato App" section** with email/phone input options.
 - 🖥️ **Smooth scrolling and dropdown functionalities** with JavaScript.
 - 📎 **Footer with various informational links and social media icons.**
+- 📱 **Fully responsive layout** for seamless experience on mobile, tablet, and desktop.
 
 ---
+
 
 ## 🛠️ Technologies Used
 
