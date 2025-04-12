@@ -9,7 +9,14 @@ This project is a **clone of the Zomato website** built using **HTML, CSS, and J
 ## 📸 Screenshots
 
 ### 🏠 Homepage :
+
 ![Homepage Screenshot](images/image.png)
+
+---
+
+## 🌐 Live Demo  
+
+The project is live and can be viewed here: [Zomato-Clone](https://clone-website-green.vercel.app/)  
 
 ---
 
