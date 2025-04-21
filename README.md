@@ -71,7 +71,7 @@ Zomato-Clone/
 
 1️⃣ Clone the repository:
 ```bash
-  git clone https://github.com/your-username/zomato-clone.git
+  git clone https://github.com/TonyStark-19/zomato-clone.git
 ```
 
 2️⃣ Open the project folder:
