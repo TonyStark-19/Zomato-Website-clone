@@ -1,69 +1,56 @@
 # 🍕 Zomato Website Clone
 
-This project is a **clone of the Zomato website** built using **HTML, CSS, and JavaScript**, along with **Font Awesome icons**. The goal is to replicate the **homepage design of Zomato** while adding **interactive functionalities** such as search, collection display, and restaurant recommendations.
+A **Zomato Website Clone** built using **HTML, CSS, and JavaScript**, enhanced with **Font Awesome icons** for an appealing and interactive design.  
+The goal of this project was to replicate the **Zomato homepage UI** while adding interactive features such as search functionality, location-based options, and animated sections.  
 
-✅ **Now fully responsive across all screen sizes** — from desktops to tablets and smartphones!
+✅ **Fully responsive across all screen sizes** — from desktops to tablets and smartphones!  
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Homepage :
+| Preview 1 | Preview 2 |
+|------------|------------|
+| ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
 
-![Homepage Screenshot](images/image.png)
+| Preview 3 | Preview 4 |
+|------------|------------|
+| ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
----
-
-## 🌐 Live Demo  
-
-The project is live and can be viewed here: [Zomato-Clone](https://clone-website-green.vercel.app/)  
+| Preview 5 | Preview 6 |
+|------------|------------|
+| ![Screenshot 5](images/Screenshot/image5.png) | ![Screenshot 6](images/Screenshot/image6.png) |
 
 ---
 
 ## 🚀 Features
 
-- 🎯 **Responsive Navbar** with options for logging in, signing up, and adding a restaurant.
-- 🌍 **Location-based search bar** for restaurants, cuisines, and dishes.
-- 🍔 **Interactive option boxes** for food ordering, dining, and live events.
-- 📌 **Collection section** for trending spots, Instagram-worthy places, and newly opened restaurants.
-- 🏙️ **Popular localities section** listing key restaurant areas around Delhi NCR.
-- 📱 **"Get the Zomato App" section** with email/phone input options.
-- 🖥️ **Smooth scrolling and dropdown functionalities** with JavaScript.
-- 📎 **Footer with various informational links and social media icons.**
-- 📱 **Fully responsive layout** for seamless experience on mobile, tablet, and desktop.
+- 🎯 **Responsive Navbar:** Includes options for logging in, signing up, and adding a restaurant.  
+- 🌍 **Location-Based Search Bar:** Search for restaurants, cuisines, and dishes easily.  
+- 🍔 **Interactive Option Boxes:** Sections for online ordering, dining out, and live events.  
+- 📌 **Collection Section:** Displays trending spots, Instagram-worthy places, and new restaurant openings.  
+- 🏙️ **Popular Localities:** Lists well-known food hubs around Delhi NCR.  
+- 📱 **“Get the Zomato App” Section:** Users can enter phone or email to receive the app link.  
+- 🖥️ **Smooth Scrolling & Dropdowns:** Added JavaScript interactivity for a dynamic experience.  
+- 📎 **Footer Section:** Contains important links and social media icons.  
+- 💻 **Fully Responsive Design:** Optimized for desktop, tablet, and mobile screens.  
 
 ---
-
 
 ## 🛠️ Technologies Used
 
-- 🖥️ **HTML5**: For structuring the webpage.
-- 🎨 **CSS3**: For styling and layout, including responsive design.
-- ⚡ **JavaScript (Vanilla JS)**: For interactive functionalities.
-- 🌟 **Font Awesome**: For icons in the navbar, search bar, and footer.
+- 🧱 **HTML5:** For the structure and layout of the website.  
+- 🎨 **CSS3:** For styling, responsiveness, and animations.  
+- ⚡ **JavaScript (Vanilla JS):** For interactivity and UI functionality.  
+- 🌟 **Font Awesome:** For icons in the navigation, search bar, and footer.  
 
 ---
 
-## 🎯 Functionalities Added with JavaScript
+## 🧩 JavaScript Functionalities
 
-- 📍 Toggle between showing and hiding **Phone or email options**.
-- 🔍 **Explore options** expands the explore opitons.
-- 🎭 **Interactive hover effects** on collection boxes.
-
----
-
-## 📂 Project Structure
-
-```
-Zomato-Clone/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── images/
-│   └── image.png
-└── README.md
-```
+- 📍 **Toggle Display:** Switch between phone and email options in the app section.  
+- 🔍 **Expandable Explore Section:** Expands to show more options dynamically.  
+- 🎭 **Hover Effects:** Interactive animations on collection and restaurant boxes.  
 
 ---
 
@@ -71,21 +58,24 @@ Zomato-Clone/
 
 1️⃣ Clone the repository:
 ```bash
-  git clone https://github.com/TonyStark-19/zomato-clone.git
+  git clone https://github.com/TonyStark-19/Zomato-Website-clone.git
 ```
 
 2️⃣ Open the project folder:
 ```bash
-  cd zomato-clone
+  cd Zomato-Website-clone
 ```
 
 3️⃣ Open the `index.html` file in your browser.
 
 ---
 
-## 📞 Contact
+## 🌟 Acknowledgments
 
-If you have any suggestions or improvements, feel free to reach out! 😊
+- 🍕 [Zomato](https://www.zomato.com) for design inspiration.
+- 💡 Inspired by modern web design and responsive development practices.
 
 ---
+
+⭐ If you like this project, don’t forget to star the repository!
 
