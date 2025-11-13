@@ -1,5 +1,4 @@
 // js logic for checkbox
-
 document.addEventListener('DOMContentLoaded', function () {
     const emailCheck = document.querySelector('.email-check');
     const phoneCheck = document.querySelector('.phone-check');
@@ -26,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // js logic for explore options
-
 document.addEventListener('DOMContentLoaded', function () {
     const optionBoxes = document.querySelectorAll(".option-box");
 
@@ -42,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // JavaScript to toggle the menu
-
 document.addEventListener('DOMContentLoaded', function () {
     const menu = document.querySelector('.menu');
     const menuBtn = document.querySelector('.menu-btn');
