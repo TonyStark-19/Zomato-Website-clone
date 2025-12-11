@@ -9,15 +9,15 @@ The goal of this project was to replicate the **Zomato homepage UI** while addin
 
 ## 📸 Screenshots
 
-| Preview 1 | Preview 2 |
+| 🏠 Home Section | 📚 Collections Section|
 |------------|------------|
 | ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
 
-| Preview 3 | Preview 4 |
+| 📍 Localities Section | 🔎 Explore Section |
 |------------|------------|
 | ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
-| Preview 5 | Preview 6 |
+| 🧩 Footer Section | 📱 Get-App Page|
 |------------|------------|
 | ![Screenshot 5](images/Screenshot/image5.png) | ![Screenshot 6](images/Screenshot/image6.png) |
 
