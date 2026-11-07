@@ -11,7 +11,6 @@ html {
 }
 
 /** navbar **/
-
 header {
     display: flex;
     justify-content: center;
@@ -51,7 +50,6 @@ header {
 }
 
 /** get the app section **/
-
 .app {
     background: #fffbf7;
     display: flex;
@@ -64,7 +62,6 @@ header {
 }
 
 /** image **/
-
 .app-img {
     max-height: 450px;
     max-width: 410px;
@@ -76,7 +73,6 @@ header {
 }
 
 /** input area **/
-
 .get-app {
     width: 450px;
     height: 349px;
@@ -86,7 +82,6 @@ header {
 }
 
 /* heading */
-
 .get-app h2 {
     font-size: 44px;
     color: #1c1c1c;
@@ -102,7 +97,6 @@ header {
 }
 
 /* checkbox */
-
 .checkbox {
     display: flex;
     flex-direction: row;
@@ -130,7 +124,6 @@ header {
 }
 
 /* input */
-
 .input-wrap {
     margin-top: 20px;
     display: flex;
@@ -224,7 +217,6 @@ header {
 }
 
 /* buuton */
-
 .button button {
     height: 48px;
     width: 150px;
@@ -243,7 +235,6 @@ header {
 }
 
 /* download options */
-
 .download p {
     font-size: 14px;
     color: #9c9c9c;
@@ -264,13 +255,11 @@ header {
 }
 
 /* hidden class */
-
 .hidden {
     display: none;
 }
 
 /** footer **/
-
 footer {
     padding: 48px 30px 22px;
     background: #f8f8f8;
@@ -282,7 +271,6 @@ footer {
 }
 
 /* foot section 1 */
-
 .foot-section {
     display: flex;
     justify-content: space-between;
@@ -307,7 +295,6 @@ footer {
 }
 
 /* foot section 2 */
-
 .foot-section2 {
     display: flex;
     flex-direction: row;
@@ -386,7 +373,6 @@ footer {
 }
 
 /* bootom text */
-
 .text-bottom p {
     font-size: 13px;
     color: #4f4f4f;
@@ -398,11 +384,9 @@ footer {
 }
 
 /* responsiveness */
-
 @media (max-width: 1250px) {
 
     /* footer */
-
     .foot-section,
     .foot-section2 {
         width: 100%;
@@ -421,7 +405,6 @@ footer {
 @media (max-width: 1000px) {
 
     /* app */
-
     .app {
         margin: 60px 0;
     }
@@ -450,7 +433,6 @@ footer {
     }
 
     /* footer */
-
     .column {
         min-width: 150px;
     }
@@ -459,7 +441,6 @@ footer {
 @media (max-width: 950px) {
 
     /* footer */
-
     .text-bottom p {
         width: 100%;
     }
@@ -468,7 +449,6 @@ footer {
 @media (max-width: 900px) {
 
     /* footer */
-
     .foot-section2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -484,13 +464,11 @@ footer {
 @media (max-width: 850px) {
 
     /* navbar */
-
     .logo {
         margin: 0;
     }
 
     /* app */
-
     .app-img {
         max-height: 350px;
         max-width: 300px;
@@ -533,7 +511,6 @@ footer {
 @media (max-width: 750px) {
 
     /* app */
-
     .app {
         margin: 50px 0;
     }
@@ -581,7 +558,6 @@ footer {
     }
 
     /* footer */
-
     footer {
         padding: 30px 30px 20px;
     }
@@ -590,7 +566,6 @@ footer {
 @media (max-width: 680px) {
 
     /* app */
-
     .app-img {
         max-width: 200px;
     }
@@ -620,7 +595,6 @@ footer {
     }
 
     /* footer */
-
     .column {
         min-height: 180px;
         min-width: 140px;
@@ -630,7 +604,6 @@ footer {
 @media (max-width: 620px) {
 
     /* footer */
-
     .foot-section {
         margin-bottom: 30px;
     }
@@ -651,7 +624,6 @@ footer {
 @media (max-width: 600px) {
 
     /* navbar */
-
     .nav {
         justify-content: space-between;
         padding: 17px 20px;
@@ -665,7 +637,6 @@ footer {
 @media (max-width: 560px) {
 
     /* app */
-
     .app {
         margin: 30px 0;
     }
@@ -717,7 +688,6 @@ footer {
 @media (max-width: 500px) {
 
     /* app */
-
     .get-app {
         width: 400px;
     }
@@ -756,7 +726,6 @@ footer {
 @media (max-width: 430px) {
 
     /* app */
-
     .get-app {
         width: 380px;
     }
@@ -788,7 +757,6 @@ footer {
     }
 
     /* footer */
-
     .select select {
         font-size: 16px;
     }
@@ -797,7 +765,6 @@ footer {
 @media (max-width: 400px) {
 
     /* navbar */
-
     .logo img {
         height: 28px;
         width: 120px;
@@ -813,7 +780,6 @@ footer {
     }
 
     /* app */
-
     .input-wrap {
         flex-direction: column;
         align-items: normal;
@@ -833,7 +799,6 @@ footer {
     }
 
     /* footer */
-
     .foot-section {
         flex-direction: column;
         align-items: normal;
@@ -848,7 +813,6 @@ footer {
 @media (max-width: 380px) {
 
     /* app */
-
     .get-app {
         width: 350px;
     }
@@ -866,7 +830,6 @@ footer {
 @media (max-width: 360px) {
 
     /* app */
-
     .get-app p {
         width: 300px;
     }

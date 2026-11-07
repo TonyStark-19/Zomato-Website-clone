@@ -1,6 +1,7 @@
 # 🍕 Zomato Website Clone
 
 A **Zomato Website Clone** built using **HTML, CSS, and JavaScript**, enhanced with **Font Awesome icons** for an appealing and interactive design.  
+
 The goal of this project was to replicate the **Zomato homepage UI** while adding interactive features such as search functionality, location-based options, and animated sections.  
 
 ✅ **Fully responsive across all screen sizes** — from desktops to tablets and smartphones!  
@@ -25,32 +26,28 @@ The goal of this project was to replicate the **Zomato homepage UI** while addin
 
 ## 🚀 Features
 
-- 🎯 **Responsive Navbar:** Includes options for logging in, signing up, and adding a restaurant.  
-- 🌍 **Location-Based Search Bar:** Search for restaurants, cuisines, and dishes easily.  
-- 🍔 **Interactive Option Boxes:** Sections for online ordering, dining out, and live events.  
-- 📌 **Collection Section:** Displays trending spots, Instagram-worthy places, and new restaurant openings.  
-- 🏙️ **Popular Localities:** Lists well-known food hubs around Delhi NCR.  
-- 📱 **“Get the Zomato App” Section:** Users can enter phone or email to receive the app link.  
-- 🖥️ **Smooth Scrolling & Dropdowns:** Added JavaScript interactivity for a dynamic experience.  
-- 📎 **Footer Section:** Contains important links and social media icons.  
-- 💻 **Fully Responsive Design:** Optimized for desktop, tablet, and mobile screens.  
+| Feature | Description |
+|:---|:---|
+| **Responsive Navbar** | Includes navigation options for logging in, signing up, and adding a restaurant. |
+| **Location-Based Search Bar** | Allows users to search for restaurants, cuisines, and dishes. |
+| **Interactive Option Boxes** | Provides dedicated sections for online ordering, dining out, and live events. |
+| **Collection Section** | Showcases trending spots, Instagram-worthy places, and newly opened restaurants. |
+| **Popular Localities** | Highlights well-known food hubs and popular dining destinations across Delhi NCR. |
+| **Get the Zomato App Section** | Allows users to enter their phone number or email address to receive the app link. |
+| **Smooth Scrolling & Dropdowns** | Uses JavaScript to enable smooth navigation and interactive dropdown menus. |
+| **Footer Section** | Includes important navigation links and social media icons. |
+| **Fully Responsive Design** | Optimized for seamless viewing across desktop, tablet, and mobile devices. |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- 🧱 **HTML5:** For the structure and layout of the website.  
-- 🎨 **CSS3:** For styling, responsiveness, and animations.  
-- ⚡ **JavaScript (Vanilla JS):** For interactivity and UI functionality.  
-- 🌟 **Font Awesome:** For icons in the navigation, search bar, and footer.  
-
----
-
-## 🧩 JavaScript Functionalities
-
-- 📍 **Toggle Display:** Switch between phone and email options in the app section.  
-- 🔍 **Expandable Explore Section:** Expands to show more options dynamically.  
-- 🎭 **Hover Effects:** Interactive animations on collection and restaurant boxes.  
+| Technology | Purpose |
+|:---|:---|
+| **HTML5** | Defines the structure and layout of the website. |
+| **CSS3** | Handles styling, responsive layouts, and animations. |
+| **JavaScript (Vanilla JS)** | Adds interactivity and manages UI functionality. |
+| **Font Awesome** | Provides icons for the navigation bar, search bar, and footer. |
 
 ---
 
@@ -72,10 +69,11 @@ The goal of this project was to replicate the **Zomato homepage UI** while addin
 
 ## 🌟 Acknowledgments
 
-- 🍕 [Zomato](https://www.zomato.com) for design inspiration.
-- 💡 Inspired by modern web design and responsive development practices.
+| Source | Contribution |
+|:---|:---|
+| [**Zomato**](https://www.zomato.com) | Served as the primary inspiration for the website's design, layout, and restaurant discovery experience. |
+| **Modern Web Design Practices** | Inspired the use of responsive layouts, clean UI, and user-friendly design principles. |
 
 ---
 
 ⭐ If you like this project, don’t forget to star the repository!
-

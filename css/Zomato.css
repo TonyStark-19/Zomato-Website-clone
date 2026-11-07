@@ -11,7 +11,6 @@ html {
 }
 
 /** background image **/
-
 header {
     background: url("/images/Other/Zomato.webp");
     height: 435px;
@@ -24,7 +23,6 @@ header {
 }
 
 /** navbar **/
-
 header .navbar {
     width: 100%;
     display: flex;
@@ -74,7 +72,6 @@ header .navbar .menu {
 }
 
 /* menu button */
-
 .menu-btn {
     color: #d3d7de;
     font-size: 25px;
@@ -114,7 +111,6 @@ header .navbar .menu {
 }
 
 /** Text after the navbar **/
-
 .content-wrap {
     display: flex;
     flex-direction: column;
@@ -145,7 +141,6 @@ header .navbar .menu {
 }
 
 /** Search bar **/
-
 .nav-search {
     display: flex;
     align-items: center;
@@ -215,7 +210,6 @@ header .navbar .menu {
 }
 
 /** Content after background image **/
-
 .options {
     margin-top: 30px;
     min-height: 300px;
@@ -266,7 +260,6 @@ header .navbar .menu {
 }
 
 /** collections **/
-
 .collections {
     display: flex;
     justify-content: center;
@@ -363,7 +356,6 @@ header .navbar .menu {
 }
 
 /** localities section **/
-
 .localities {
     display: flex;
     justify-content: center;
@@ -404,7 +396,6 @@ header .navbar .menu {
 }
 
 /** last box styling **/
-
 #see-more {
     height: 45.5px;
     width: 300px;
@@ -432,7 +423,6 @@ header .navbar .menu {
 }
 
 /** overall box styling **/
-
 .place .cover {
     display: flex;
     flex-direction: column;
@@ -460,7 +450,6 @@ header .navbar .menu {
 }
 
 /** get the app section **/
-
 .app {
     background: #fffbf7;
     display: flex;
@@ -471,7 +460,6 @@ header .navbar .menu {
 }
 
 /** image **/
-
 .app-img {
     max-height: 450px;
     max-width: 250px;
@@ -483,7 +471,6 @@ header .navbar .menu {
 }
 
 /** input area **/
-
 .get-app {
     width: 450px;
     height: 349px;
@@ -661,13 +648,11 @@ header .navbar .menu {
 }
 
 /* hidden class */
-
 .hidden {
     display: none;
 }
 
 /** explore options **/
-
 .explore {
     padding: 50px 0;
     display: flex;
@@ -745,7 +730,6 @@ header .navbar .menu {
 }
 
 /** footer **/
-
 footer {
     padding: 48px 30px 22px;
     background: #f8f8f8;
@@ -757,7 +741,6 @@ footer {
 }
 
 /* foot section 1 */
-
 .foot-section {
     display: flex;
     justify-content: space-between;
@@ -782,7 +765,6 @@ footer {
 }
 
 /* foot section 2 */
-
 .foot-section2 {
     display: flex;
     flex-direction: row;
@@ -871,23 +853,19 @@ footer {
 }
 
 /* responsiveness */
-
 @media (max-width: 1250px) {
 
     /* collection */
-
     .collection-box {
         width: 85%;
     }
 
     /* localities */
-
     .wrap {
         width: 100%;
     }
 
     /* footer */
-
     .foot-section,
     .foot-section2 {
         width: 100%;
@@ -910,7 +888,6 @@ footer {
 @media (max-width: 1150px) {
 
     /* options */
-
     .box {
         min-height: 250px;
         width: 300px;
@@ -920,7 +897,6 @@ footer {
 @media (max-width: 1100px) {
 
     /* collections */
-
     .collections .sub-title {
         flex-direction: column;
         gap: 10px;
@@ -932,7 +908,6 @@ footer {
     }
 
     /* localities */
-
     .localities {
         margin-bottom: 50px;
     }
@@ -946,7 +921,6 @@ footer {
 @media (max-width: 1000px) {
 
     /* options */
-
     .box {
         min-height: 250px;
         width: 250px;
@@ -956,7 +930,6 @@ footer {
 @media (max-width: 950px) {
 
     /* localities */
-
     .localities .heading {
         margin-bottom: 30px;
         font-size: 34px;
@@ -968,7 +941,6 @@ footer {
     }
 
     /* footer */
-
     .text-bottom p {
         width: 100%;
     }
@@ -977,7 +949,6 @@ footer {
 @media (max-width: 900px) {
 
     /* navbar */
-
     .navbar .menu li {
         margin: 0 5px;
     }
@@ -987,7 +958,6 @@ footer {
     }
 
     /* text after navbar */
-
     .content .logo img {
         height: 50px;
         width: 250px;
@@ -1002,7 +972,6 @@ footer {
     }
 
     /* collections */
-
     .collection-box {
         margin-bottom: 50px;
     }
@@ -1013,14 +982,12 @@ footer {
     }
 
     /* explore */
-
     .explore-text,
     .option-box {
         width: 90%;
     }
 
     /* footer */
-
     .foot-section2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1036,7 +1003,6 @@ footer {
 @media (max-width: 830px) {
 
     /* options */
-
     .options {
         flex-wrap: wrap;
     }
@@ -1047,7 +1013,6 @@ footer {
     }
 
     /* collections */
-
     .collection-box {
         flex-wrap: wrap;
         align-items: center;
@@ -1064,7 +1029,6 @@ footer {
 @media (max-width: 800px) {
 
     /* collections */
-
     .collections-info {
         width: 650px;
     }
@@ -1078,7 +1042,6 @@ footer {
     }
 
     /* localites */
-
     .cover h5 {
         font-size: 18px;
     }
@@ -1091,7 +1054,6 @@ footer {
 @media (max-width: 750px) {
 
     /* navbar */
-
     .navbar .menu li {
         margin: 0 3px;
     }
@@ -1101,7 +1063,6 @@ footer {
     }
 
     /* text after navbar */
-
     .content .logo img {
         width: 230px;
     }
@@ -1116,38 +1077,32 @@ footer {
     }
 
     /* options */
-
     .box {
         min-height: 250px;
         width: 300px;
     }
 
     /* localites */
-
     .place,
     #see-more {
         width: 250px;
     }
 
     /* get-app */
-
     .app-img {
         display: none;
     }
 
     /* footer */
-
     footer {
         padding: 30px 30px 20px;
     }
 }
 
 /* menu activates here */
-
 @media (max-width: 700px) {
 
     /* navbar */
-
     header .navbar {
         justify-content: space-between;
     }
@@ -1157,7 +1112,6 @@ footer {
     }
 
     /* menu */
-
     .menu-btn {
         display: block;
     }
@@ -1195,7 +1149,6 @@ footer {
     }
 
     /* collections */
-
     .collections-info {
         width: 550px;
     }
@@ -1205,13 +1158,11 @@ footer {
     }
 
     /* localities */
-
     .localities .heading {
         font-size: 32px;
     }
 
     /* footer */
-
     .column {
         min-height: 180px;
         min-width: 140px;
@@ -1221,7 +1172,6 @@ footer {
 @media (max-width: 650px) {
 
     /* text after navbar */
-
     .content .text h1 {
         font-size: 22px;
         margin: 20px 0 0;
@@ -1251,20 +1201,17 @@ footer {
     }
 
     /* options */
-
     .box {
         min-height: 250px;
         width: 250px;
     }
 
     /* collection */
-
     .collection-box {
         gap: 20px;
     }
 
     /* localities */
-
     .localities .heading {
         width: 500px;
         font-size: 30px;
@@ -1279,7 +1226,6 @@ footer {
 @media (max-width: 620px) {
 
     /* footer */
-
     .foot-section {
         margin-bottom: 30px;
     }
@@ -1300,7 +1246,6 @@ footer {
 @media (max-width: 600px) {
 
     /* collections */
-
     .collections-info {
         width: 500px;
     }
@@ -1310,7 +1255,6 @@ footer {
     }
 
     /* explore */
-
     .option-box-label {
         padding: 15px 20px;
         font-size: 15px;
@@ -1324,7 +1268,6 @@ footer {
 @media (max-width: 550px) {
 
     /* text after navbar */
-
     .menu.active {
         top: 60px;
     }
@@ -1352,14 +1295,12 @@ footer {
     }
 
     /* options */
-
     .box {
         height: 200px;
         width: 90%;
     }
 
     /* collections */
-
     .collection-box {
         padding: 0 30px;
     }
@@ -1373,7 +1314,6 @@ footer {
     }
 
     /* localities */
-
     .localities .heading {
         width: 430px;
     }
@@ -1387,19 +1327,16 @@ footer {
 @media (max-width: 500px) {
 
     /* navbar */
-
     .menu-btn-2 {
         font-size: 25px;
     }
 
     /* collections */
-
     .collections-info {
         width: 400px;
     }
 
     /* app */
-
     .get-app {
         width: 400px;
     }
@@ -1436,7 +1373,6 @@ footer {
     }
 
     /* localites */
-
     .localities {
         margin-bottom: 30px;
     }
@@ -1455,7 +1391,6 @@ footer {
 @media (max-width: 470px) {
 
     /* text after navbar */
-
     .content .text h1 {
         width: 350px;
     }
@@ -1472,7 +1407,6 @@ footer {
 @media (max-width: 450px) {
 
     /* collections */
-
     .collection-box {
         justify-content: normal;
     }
@@ -1482,7 +1416,6 @@ footer {
     }
 
     /* localities */
-
     .localities .heading {
         width: 370px;
     }
@@ -1501,7 +1434,6 @@ footer {
 @media (max-width: 430px) {
 
     /* app */
-
     .get-app {
         width: 380px;
     }
@@ -1532,7 +1464,6 @@ footer {
     }
 
     /* footer */
-
     .select select {
         font-size: 16px;
     }
@@ -1541,32 +1472,27 @@ footer {
 @media (max-width: 400px) {
 
     /* text after navbar */
-
     .nav-search {
         width: 300px;
     }
 
     /* options */
-
     .box {
         height: 200px;
         width: 280px;
     }
 
     /* collections */
-
     .collections-info {
         width: 300px;
     }
 
     /* localities */
-
     .localities .heading {
         width: 320px;
     }
 
     /* app */
-
     .input-wrap {
         flex-direction: column;
         align-items: normal;
@@ -1586,13 +1512,11 @@ footer {
     }
 
     /* explore */
-
     .explore {
         padding: 30px 0 10px;
     }
 
     /* footer */
-
     .foot-section {
         flex-direction: column;
         align-items: normal;
@@ -1607,7 +1531,6 @@ footer {
 @media (max-width: 380px) {
 
     /* app */
-
     .get-app {
         width: 350px;
     }
@@ -1625,7 +1548,6 @@ footer {
 @media (max-width: 360px) {
 
     /* app */
-
     .get-app p {
         width: 300px;
     }
@@ -1634,27 +1556,23 @@ footer {
 @media (max-width: 350px) {
 
     /* text after navbar */
-
     .nav-search {
         width: 280px;
         padding: 5px 10px;
     }
 
     /* collections */
-
     .collections-info {
         width: 280px;
     }
 
     /* localities */
-
     .localities .heading {
         width: 300px;
         font-size: 28px;
     }
 
     /* explore */
-
     .explore-text p {
         font-size: 26px;
     }
